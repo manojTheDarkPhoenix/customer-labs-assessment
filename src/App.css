@@ -1,38 +1,112 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+
+
+.App-header {
+  background-color: #39AEBC;
+  height: 5rem;
+  display: flex;
+}
+
+.header-section {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.back-icon {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.header-text {
+  font-weight: bold;
   color: white;
+  font-weight: x-large;
 }
 
-.App-link {
-  color: #61dafb;
+.popup-container {
+  margin: 2%;
+}
+/* Buttons */
+.button-container {
+  height: 5rem;  
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: auto; /* Push the div to the bottom */
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-success {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  margin-right: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #41B494;  
 }
+
+.btn-cancel {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #D24572;
+  background-color: #fff;   
+}
+
+.btn-popup-container {
+  background-color: #999999;
+  height: 100vh;
+}
+.btn-popup {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid white;
+  color: #fff;
+  background-color: #999999;
+  margin-top: 4rem;
+  margin-left: 10rem;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.popup-content {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect */
+}
+
+
+

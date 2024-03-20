@@ -1,0 +1,57 @@
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* Dropdown styles */
+.dot-container {
+    width: 10%;
+}
+
+.dot {
+    display: inline-block;
+    width: 0.7rem; /* 10% width for the dot */
+    height: 0.7rem; /* Adjust the height of the dot as needed */
+    border-radius: 50%; /* Makes the element a circle */
+}
+
+
+.field-remove-btn {
+    width: 2rem;
+    height: 2rem;
+    font-weight:900;
+    color: #657A93;
+}
+
+.select-field {
+    width: 90%;
+    height: 2rem;
+    padding: 0.5rem;
+    padding-top: 0.05rem;
+    margin: 0rem 1rem;
+}
+
+/* Blue box styles */
+
+.blue-box {
+    border: 0.2rem solid blue;
+}
+
+.legend-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.legend-field {
+    padding: 0.5rem;
+    padding-right: 1rem;
+}
+
+.btn-add {
+    margin-left: 2rem;
+}
+
+
